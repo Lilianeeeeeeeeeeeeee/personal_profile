@@ -1,75 +1,50 @@
-# Nuxt Minimal Starter
+# Personal Profile Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A two-page personal profile website built with **Nuxt 3** and **Tailwind CSS**, based on my Figma design.
 
-## Setup
+## Pages
 
-Make sure to install dependencies:
+- **Home** (`/`): name, short introduction, profile photo, navigation menu, and welcome message
+- **Profile** (`/profile`): personal information, educational background, skills and interests, and hobbies
 
-```bash
-# npm
-npm install
+## Built with
 
-# pnpm
-pnpm install
+- [Nuxt](https://nuxt.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Fonts: Playfair Display and Poppins (Google Fonts)
 
-# yarn
-yarn install
+## Design
 
-# bun
-bun install
+The layout follows my Figma design: YOUR FIGMA LINK HERE
+
+## How to run it
+
+1. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open http://localhost:3000 in your browser.
+
+## Project structure
+
+```
+app/
+├── components/   NavBar, Sparkles, Stage, PhotoOutline
+├── layouts/      default layout
+├── pages/        index.vue (home), profile.vue (profile)
+└── assets/css/   main.css (Tailwind and fonts)
+public/images/    photos, icons, and decorations
 ```
 
-## Development Server
+## Author
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+LHYZL JHYN T. DOOMA, BSIT, Caraga State University
+BSIT - III CDELM2
